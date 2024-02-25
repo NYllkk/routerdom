@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { lazy, useEffect } from 'react';
+
 import { useSelector } from 'react-redux';
 import { Outlet, useNavigate } from 'react-router-dom';
 import Enter from './Enter';
